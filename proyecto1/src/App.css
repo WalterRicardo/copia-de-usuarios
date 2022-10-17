@@ -1,0 +1,35 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+html, body{
+    font-size: 18px;/* tamaño de la letra */
+    background-color: #f5f6f7;
+}
+
+h1{
+    max-width: 940px;/* anchor maximo de letra */
+    font-size: 2.5em;/* tamaño de la letra variable*/
+    font-family:sans-serif;/* tipo de letra */
+    font-weight: 700px;/* peso de letra */
+    line-height: 1.1;/* altura de letra */
+    margin: 40px,0;
+}
+
+.App{
+    min-height: 100vh;/* altura adaptable */
+    display: flex;/* app con ubicacion flexible */
+    flex-wrap: wrap; /* si un elemento se pasa de anchor, pues se adapta abajo */
+    align-items: center;/* los elementos se alinearán en el centro */
+    justify-content: center;/* se centraran horizontalmente */
+    text-align: center;/* el texto centrado */
+}
+
+.contenedor{
+    min-height: 600px;/* altura minima */
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
